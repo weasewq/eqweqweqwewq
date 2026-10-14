@@ -33,8 +33,12 @@ npx hyperframes skills update
 npm install -g @playwright/cli@latest
 playwright-cli install --skills
 
-# Agent Skills (Anthropic): o método
-claude plugin marketplace add anthropics/skills
+# Agent Skills (Addy Osmani): o método (spec, plano, código, teste, review, debug, segurança)
+# No Claude Code:
+#   /plugin marketplace add addyosmani/agent-skills
+#   /plugin install agent-skills@addy-agent-skills
+# Ou em qualquer agente:
+npx skills add addyosmani/agent-skills
 
 # Graphify: mapa do código em grafo de conhecimento
 uv tool install graphifyy   # ou: pipx install graphifyy
